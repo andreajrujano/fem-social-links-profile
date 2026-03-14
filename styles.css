@@ -1,0 +1,146 @@
+:root {
+    /* Colors */
+    --green-color: #c4f82a;
+    --gray-900-color: #141414;
+    --gray-800-color: #1f1f1f;
+    --gray-700-color: #333;
+    --white-color: #fff;
+
+    /* Spacing scale */
+    --spacing-50: 4px;
+    --spacing-100: 8px;
+    --spacing-150: 12px;
+    --spacing-200: 24px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--gray-900-color);
+    font-family: "Figtree", sans-serif;
+    font-size: 15px; /* Paragraph size */
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+
+
+.text-preset-1 {
+  font-family: "Figtree", sans-serif;
+  font-size: 24px;
+  font-weight: 800; /* Extra Bold*/
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+.text-preset-2 {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  font-weight: 500; /* Medium */
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+.text-preset-2-bold {
+  font-family: "Figtree", sans-serif;
+  font-size: 14px;
+  font-weight: 800; /* Extra Bold */
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+.text-preset-3 {
+  font-family: "Figtree", sans-serif;
+  font-size: 14px;
+  font-weight: 500; /* Medium */
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+.green-text {
+    color: var(--green-color);
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.profile-link {
+    background-color: #6b6b6b;
+}
+
+.profile-card {
+    color: var(--white-color);
+    width: 384px;
+    background-color: var(--gray-800-color);
+    padding: 40px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 384px;
+}
+
+
+.profile-photo {
+    height: 88px;
+    width: 88px;
+    line-height: 0;   /* removes extra line box space */
+}
+
+.profile-photo img {
+    border-radius: 50%;
+    display: block;
+    margin: 0;
+    max-width: 100%;   /* shrink to fit container width */
+    height: 100%;        /* fill container height */
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.profile-link {
+    background-color: var(--gray-700-color);
+    padding: 12px;
+    border-radius: 8px;
+    height: 100%;
+    text-align: center;
+
+}
+
+.profile-link:hover {
+    color: var(--gray-700-color);
+    background-color: var(--green-color);
+    cursor: pointer;
+}
+
+
+
+/* Media query for mobile screens */
+@media (max-width: 375px) {
+    .profile-card {
+        width: 327px;
+    }
+}
+
