@@ -3,44 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Social links profile</title>
   <link rel="stylesheet" href="styles.css">
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
   <main>
-    <article class="profile-card">
-      <section class="profile-photo">
-        <img src="./assets/images/avatar-jessica.jpeg" alt="Preview image">
-      </section>
-    <section class="profile-info">
-      <h1 class="text-preset-1">Jessica Randall</h1>
-      <p class="text-preset-2-bold green-text">London, United Kingdom</p>
+    <section class="profile__card">
+        <div class="profile__photo">
+          <img src="./assets/images/avatar-jessica.jpeg" alt="Photo of Jessica Randall">
+        </div>
+      <div class="profile__info">
+        <h1 class="profile__name">Jessica Randall</h1>
+        <p class="profile__location">London, United Kingdom</p>
+      </div>
+      <div class="profile__about">
+        "Front-end developer and avid reader."
+      </div>
+      <div class="profile_links">
+        <a href="#" class="profile_links-item" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="#" class="profile_links-item" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>
+        <a href="#" class="profile_links-item" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="#" class="profile_links-item" target="_blank" rel="noopener noreferrer">Twitter</a>
+        <a href="#" class="profile_links-item" target="_blank" rel="noopener noreferrer">Instagram</a>
+      </div>
     </section>
-    <section class="about text-preset-2">
-      "Front-end developer and avid reader."
-    </section>
-    <section class="links">
-      <div class="profile-link text-preset-2-bold">GitHub</div>
-      <div class="profile-link text-preset-2-bold">Frontend Mentor</div>
-      <div class="profile-link text-preset-2-bold">LinkedIn</div>
-      <div class="profile-link text-preset-2-bold">Twitter</div>
-      <div class="profile-link text-preset-2-bold">Instagram</div>  
-    </section>
-    </article>
-  
-  
-
- 
   </main>
 </body>
 </html>
