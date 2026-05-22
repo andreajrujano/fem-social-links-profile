@@ -148,7 +148,7 @@ main {
 
 
 /* Media query for larger screens */
-@media (min-width: 384px) {
+@media (min-width: 432px) {
     .profile__card {
         padding: calc(var(--space-5) * 2);
     }
