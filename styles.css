@@ -144,7 +144,7 @@ main {
 }
 
 .profile_links-item:hover,
-.profile_links--item:focus-visible {
+.profile_links-item:focus-visible {
     color: var(--gray-700-color);
     background-color: var(--green-color);
     cursor: pointer;
