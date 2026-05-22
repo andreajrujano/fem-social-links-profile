@@ -122,14 +122,14 @@ main {
     gap: var(--space-1);
 }
 
-.profile_links {
+.profile__links {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: var(--space-4);
 }
 
-.profile_links-item {
+.profile__links-item {
     font-size: 14px;
     font-weight: 800; /* Extra Bold */
     line-height: 150%;
@@ -143,8 +143,8 @@ main {
     text-decoration: none;
 }
 
-.profile_links-item:hover,
-.profile_links-item:focus-visible {
+.profile__links-item:hover,
+.profile__links-item:focus-visible {
     color: var(--gray-700-color);
     background-color: var(--green-color);
     cursor: pointer;
